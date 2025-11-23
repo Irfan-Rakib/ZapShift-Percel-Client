@@ -39,7 +39,7 @@ const HowItWorks = () => {
         {services.map((service, index) => (
           <div
             key={index}
-            className="w-full max-w-xs bg-white  rounded-xl shadow-xl p-6 hover:shadow-md transition"
+            className="w-full max-w-xs bg-gray-50  rounded-xl shadow-md p-6 hover:shadow-md transition"
           >
             {service.icon}
             <h3 className="text-lg font-semibold mb-2">{service.title}</h3>
