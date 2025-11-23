@@ -9,7 +9,8 @@
     "parcel_id": "5f47ac10b4f1c03e8c654321",
     "pick_up_email": "pickup1@example.com",
     "user_photoURL": "https://randomuser.me/api/portraits/men/10.jpg",
-    "date": "2024-05-08T14:30:00.000Z"
+    "date": "2024-05-08T14:30:00.000Z",
+    "userDesignation": "Logistics Coordinator"
   },
   {
     "id": "5f47ac10b4f1c03e8c234567",
@@ -21,7 +22,8 @@
     "parcel_id": "5f47ac10b4f1c03e8c765432",
     "pick_up_email": "pickup2@example.com",
     "user_photoURL": "https://randomuser.me/api/portraits/women/25.jpg",
-    "date": "2024-06-10T10:15:00.000Z"
+    "date": "2024-06-10T10:15:00.000Z",
+    "userDesignation": "Customer Support Officer"
   },
   {
     "id": "5f47ac10b4f1c03e8c345678",
@@ -33,7 +35,8 @@
     "parcel_id": "5f47ac10b4f1c03e8c876543",
     "pick_up_email": "pickup3@example.com",
     "user_photoURL": "https://randomuser.me/api/portraits/men/34.jpg",
-    "date": "2024-07-01T08:50:00.000Z"
+    "date": "2024-07-01T08:50:00.000Z",
+    "userDesignation": "Senior Delivery Specialist"
   },
   {
     "id": "5f47ac10b4f1c03e8c456789",
@@ -45,7 +48,8 @@
     "parcel_id": "5f47ac10b4f1c03e8c987654",
     "pick_up_email": "pickup4@example.com",
     "user_photoURL": "https://randomuser.me/api/portraits/women/12.jpg",
-    "date": "2024-07-15T09:10:00.000Z"
+    "date": "2024-07-15T09:10:00.000Z",
+    "userDesignation": "Operations Assistant"
   },
   {
     "id": "5f47ac10b4f1c03e8c567890",
@@ -57,7 +61,8 @@
     "parcel_id": "5f47ac10b4f1c03e8c098765",
     "pick_up_email": "pickup5@example.com",
     "user_photoURL": "https://randomuser.me/api/portraits/men/19.jpg",
-    "date": "2024-08-02T16:45:00.000Z"
+    "date": "2024-08-02T16:45:00.000Z",
+    "userDesignation": "Field Runner"
   },
   {
     "id": "5f47ac10b4f1c03e8c678901",
@@ -69,7 +74,8 @@
     "parcel_id": "5f47ac10b4f1c03e8c109876",
     "pick_up_email": "pickup6@example.com",
     "user_photoURL": "https://randomuser.me/api/portraits/women/8.jpg",
-    "date": "2024-08-10T12:00:00.000Z"
+    "date": "2024-08-10T12:00:00.000Z",
+    "userDesignation": "Quality Assurance Lead"
   },
   {
     "id": "5f47ac10b4f1c03e8c789012",
@@ -81,7 +87,8 @@
     "parcel_id": "5f47ac10b4f1c03e8c210987",
     "pick_up_email": "pickup7@example.com",
     "user_photoURL": "https://randomuser.me/api/portraits/men/22.jpg",
-    "date": "2024-08-14T18:20:00.000Z"
+    "date": "2024-08-14T18:20:00.000Z",
+    "userDesignation": "Packaging Supervisor"
   },
   {
     "id": "5f47ac10b4f1c03e8c890123",
@@ -93,6 +100,7 @@
     "parcel_id": "5f47ac10b4f1c03e8c321098",
     "pick_up_email": "pickup8@example.com",
     "user_photoURL": "https://randomuser.me/api/portraits/women/5.jpg",
-    "date": "2024-08-20T07:30:00.000Z"
+    "date": "2024-08-20T07:30:00.000Z",
+    "userDesignation": "Delivery Operations Manager"
   }
 ]
