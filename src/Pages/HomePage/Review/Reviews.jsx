@@ -12,11 +12,11 @@ const Reviews = ({ ReviewsPromise }) => {
   const ReviewsData = use(ReviewsPromise);
 
   return (
-    <div className="my-20 bg-gray-100">
+    <div className="my-20 bg-gray-100 px-4">
       <div className=" py-16 px-4 flex flex-col items-center justify-center text-center">
         <img src={Img} alt="" className="mb-8" />
         {/* 2. Main Title */}
-        <h2 className="text-3xl font-extrabold text-secondary md:text-5xl tracking-tight mb-5">
+        <h2 className="text-3xl font-extrabold text-secondary md:text-4xl tracking-tight mb-5">
           What our customers are sayings
         </h2>
 
