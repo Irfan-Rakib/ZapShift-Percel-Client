@@ -17,3 +17,7 @@ body {
   --color-primary: #caeb66;
   --color-secondary: #03373d;
 }
+
+li a.active {
+  @apply underline font-bold text-secondary;
+}
