@@ -5,6 +5,9 @@ import Coverage from "../Pages/Coverage/Coverage";
 import AuthLayout from "../Layouts/AuthLayout";
 import Login from "../Pages/AuthPages/Login/Login";
 import Register from "../Pages/AuthPages/Register/Register";
+import PrivateRouter from "./PrivateRouter";
+import Rider from "../Pages/Rider/Rider";
+import SendPercel from "../Pages/SendPercel/SendPercel";
 
 export const router = createBrowserRouter([
   {
@@ -16,6 +19,22 @@ export const router = createBrowserRouter([
         path: "/coverage",
         element: <Coverage />,
         loader: () => fetch("/ServiceCentres.json").then((res) => res.json()),
+      },
+      {
+        path: "rider",
+        element: (
+          <PrivateRouter>
+            <Rider></Rider>
+          </PrivateRouter>
+        ),
+      },
+      {
+        path: "send-percel",
+        element: (
+          <PrivateRouter>
+            <SendPercel />
+          </PrivateRouter>
+        ),
       },
     ],
   },

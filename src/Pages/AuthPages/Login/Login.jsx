@@ -1,6 +1,8 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import UseAuth from "../../../Hooks/UseAuth";
+import SocialLogin from "../SocialLogin/SocialLogin";
+import { Link, useLocation, useNavigate } from "react-router";
 
 const Login = () => {
   const {
@@ -11,11 +13,14 @@ const Login = () => {
   } = useForm();
 
   const { loginUser } = UseAuth();
+  const location = useLocation();
+  const navigate = useNavigate();
 
   const handleLogin = async (data) => {
     try {
       const result = await loginUser(data.email, data.password);
       console.log(result.user);
+      navigate(location?.state || "/");
     } catch (err) {
       console.log(err);
       if (err.code === "auth/invalid-credential") {
@@ -29,8 +34,8 @@ const Login = () => {
   };
 
   return (
-    <div className="card-body">
-      <form onSubmit={handleSubmit(handleLogin)}>
+    <div className="card max-w-sm w-full mx-auto">
+      <form className="card-body" onSubmit={handleSubmit(handleLogin)}>
         <fieldset className="fieldset">
           <label className="label">Email</label>
           <input
@@ -84,7 +89,19 @@ const Login = () => {
           </div>
           <button className="btn btn-neutral mt-4">Login</button>
         </fieldset>
+        <p className="mt-3">
+          {" "}
+          Don't have an account?{" "}
+          <Link
+            state={location.state}
+            className="link-hover font-bold"
+            to="/register"
+          >
+            Register
+          </Link>
+        </p>
       </form>
+      <SocialLogin></SocialLogin>
     </div>
   );
 };
